@@ -1,0 +1,10 @@
+@(usuarios:List[Usuario])
+<usuarios>
+@for(usuario<-usuarios){
+	<usuario>
+	<id>@usuario.id</id>
+	<nombre>@usuario.nombre</nombre>
+	<nick>@usuario.nick</nick>
+	</usuario>
+}
+</usuarios>

@@ -1,0 +1,6 @@
+@(urls:List[Url])
+<urls>
+@for(url<-urls){
+<url>@url.getName</url>
+}
+</urls>

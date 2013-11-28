@@ -1,0 +1,6 @@
+@(usuario:Usuario)
+<usuario>
+	<id>@usuario.id</id>
+	<nombre>@usuario.nombre</nombre>
+	<nick>@usuario.nick</nick>
+</usuario>
