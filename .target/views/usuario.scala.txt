@@ -1,6 +1,0 @@
-@(usuario:Usuario)
-{
-	"id":"@usuario.id",
-	"nombre":"@usuario.nombre",
-	"nick":"@usuario.nick"
-}

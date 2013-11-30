@@ -1,7 +1,0 @@
-@(usuarios:List[Usuario])
-{@for(usuario<-usuarios){
-	"id":"@usuario.id"
-	"nombre":"@usuario.nombre"
-	"nick":"@usuario.nick"
-}
-}
